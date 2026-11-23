@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "title": "Social Media with AI",
+    "tagline": "Tools, skills, research repos and posts on using AI agents for social media research and content, archived in full. Topic catalogues refresh themselves every week.",
+    "owner": "HossamSalemOnline",
+    "repo": "socialmediawithai"
+  },
+  "entries": [
+    {
+      "id": "e01",
+      "file": "content/e01-social-media-research-skills.md",
+      "title": "Open-source skills that teach your AI agent to research TikTok, Instagram, YouTube, Reddit, X and LinkedIn",
+      "kind": "Post",
+      "author": "牛叔叔",
+      "handle": "ChantoziQ",
+      "date": "2026-11-22",
+      "source": "https://x.com/ChantoziQ/status/2124513984984555683",
+      "summary": "13 agent skills from ScrapeCreators: outlier posts, comment mining, competitor and ad teardowns, trends, influencer prospecting. Chinese original plus English translation, linked to your fork.",
+      "tags": [
+        "Agent skills",
+        "Social listening",
+        "Competitor research",
+        "Fork: scrape-social"
+      ]
+    },
+    {
+      "id": "e02",
+      "file": "content/topic-market-research.md",
+      "title": "GitHub topic: market-research (1,751 repos)",
+      "kind": "GitHub topic",
+      "author": "GitHub",
+      "handle": "github",
+      "date": "2026-11-23",
+      "source": "https://github.com/topics/market-research",
+      "summary": "Every public repo tagged market-research, with stars, language, last update and the authors' own descriptions. Top 25 first, then the full list. Refreshes itself every Monday.",
+      "tags": [
+        "Market research",
+        "Catalogue",
+        "Auto-refresh"
+      ],
+      "repo_count": 1751
+    }
+  ]
+}

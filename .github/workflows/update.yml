@@ -1,0 +1,52 @@
+name: Refresh catalogues, fetch media, rebuild site
+
+# Every Monday: re-pull every GitHub topic in sources/topics.json.
+# On every push: download any new media and rebuild the README, REPOS.md and the website.
+
+on:
+  push:
+    branches: [main]
+    paths: ["sources/**", "content/**", "tools/**", "README.md", ".github/workflows/**"]
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown
+      - name: Refresh topic catalogues (weekly run, or when topics change)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/refresh_topics.py
+      - run: python tools/fetch_media.py
+      - run: python tools/build_site.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python - <<'PY'
+          import json, pathlib
+          e = json.loads(pathlib.Path("sources/entries.json").read_text())
+          for x in e["entries"]:
+              if x.get("kind") == "GitHub topic":
+                  t = x["source"].rsplit("/", 1)[-1]
+                  p = pathlib.Path(f"sources/topics/{t}.json")
+                  if p.exists():
+                      n = len(json.loads(p.read_text()))
+                      x["repo_count"] = n
+                      x["title"] = f"GitHub topic: {t} ({n:,} repos)"
+          pathlib.Path("sources/entries.json").write_text(json.dumps(e, indent=2, ensure_ascii=False))
+          PY
+          python tools/build_site.py
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing to commit."; else git commit -m "Weekly refresh and rebuild" && git push; fi

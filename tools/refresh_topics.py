@@ -1,0 +1,81 @@
+"""Refresh the GitHub topic catalogues listed in sources/topics.json.
+
+Usage:  python tools/refresh_topics.py            (needs the `gh` CLI, authenticated; GH_TOKEN in Actions)
+For each topic it pulls every public repository (GitHub search returns at most 1,000 per query, so the
+date range is split in half until each slice fits), then writes:
+  sources/topics/<topic>.json   raw data, sorted by stars
+  content/topic-<topic>.md      the readable catalogue
+"""
+import datetime as dt
+import json
+import pathlib
+import subprocess
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+FIELDS = "fullName,description,stargazersCount,forksCount,language,updatedAt,createdAt,url,isArchived"
+
+
+def gh(args):
+    return subprocess.run(["gh", *args], capture_output=True, text=True, check=True).stdout
+
+
+def count(topic, lo, hi):
+    q = f"topic:{topic} created:{lo}..{hi}"
+    return json.loads(gh(["api", "-X", "GET", "search/repositories", "-f", f"q={q}", "-f", "per_page=1", "--jq", "{total_count}"]))["total_count"]
+
+
+def fetch(topic, lo, hi):
+    out = gh(["search", "repos", "--topic", topic, "--created", f"{lo}..{hi}", "--limit", "1000", "--json", FIELDS])
+    return json.loads(out or "[]")
+
+
+def collect(topic, lo=dt.date(2008, 1, 1), hi=None):
+    hi = hi or dt.date.today() + dt.timedelta(days=1)
+    n = count(topic, lo, hi)
+    if n == 0:
+        return []
+    if n < 1000 or (hi - lo).days < 2:
+        return fetch(topic, lo, hi)
+    mid = lo + (hi - lo) / 2
+    return collect(topic, lo, mid) + collect(topic, mid + dt.timedelta(days=1), hi)
+
+
+def md(topic, repos, note):
+    today = dt.date.today().isoformat()
+    langs = {}
+    for r in repos:
+        langs[r.get("language") or "Not set"] = langs.get(r.get("language") or "Not set", 0) + 1
+    top_langs = ", ".join(f"{k} ({v})" for k, v in sorted(langs.items(), key=lambda x: -x[1])[:6])
+    lines = [f"# GitHub topic: {topic}", "",
+             f"- **Source:** https://github.com/topics/{topic}",
+             f"- **Repositories:** {len(repos):,} public repos (refreshed {today})",
+             f"- **Most common languages:** {top_langs}",
+             f"- **Captured via:** GitHub search API, every repo tagged `{topic}`, refreshed weekly by `tools/refresh_topics.py`. Descriptions are the authors' own, unedited.",
+             ""]
+    if note:
+        lines += [note, ""]
+    lines += ["## Top 25 by stars", "", "| # | Repository | Stars | Language | Updated | Description |", "|---|---|---|---|---|---|"]
+    def row(i, r):
+        d = (r.get("description") or "").replace("|", "\\|").replace("\n", " ").strip()
+        arch = " (archived)" if r.get("isArchived") else ""
+        return f"| {i} | [{r['fullName']}]({r['url']}){arch} | {r['stargazersCount']:,} | {r.get('language') or ''} | {r['updatedAt'][:10]} | {d} |"
+    lines += [row(i, r) for i, r in enumerate(repos[:25], 1)]
+    lines += ["", f"## All {len(repos):,} repositories", "", "| # | Repository | Stars | Language | Updated | Description |", "|---|---|---|---|---|---|"]
+    lines += [row(i, r) for i, r in enumerate(repos, 1)]
+    return "\n".join(lines) + "\n"
+
+
+def main():
+    cfg = json.loads((ROOT / "sources" / "topics.json").read_text())
+    (ROOT / "sources" / "topics").mkdir(parents=True, exist_ok=True)
+    for t in cfg["topics"]:
+        name = t["topic"]
+        found = {r["fullName"].lower(): r for r in collect(name)}
+        repos = sorted(found.values(), key=lambda r: (-r["stargazersCount"], r["fullName"].lower()))
+        (ROOT / "sources" / "topics" / f"{name}.json").write_text(json.dumps(repos, indent=1))
+        (ROOT / "content" / f"topic-{name}.md").write_text(md(name, repos, t.get("note", "")))
+        print(f"{name}: {len(repos)} repos")
+
+
+if __name__ == "__main__":
+    main()

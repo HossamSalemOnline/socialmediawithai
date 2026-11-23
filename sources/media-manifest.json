@@ -1,0 +1,5 @@
+{
+  "note": "Media for this hub. On push, the fetch-media workflow downloads each file into docs/media/ and rewrites links to local copies.",
+  "cdn_base": "https://raw.githack.com/HossamSalemOnline/socialmediawithai/main/",
+  "files": []
+}
