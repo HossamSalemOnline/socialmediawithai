@@ -1,0 +1,717 @@
+{
+ "note": "English translations of non-English GitHub repo descriptions, keyed by repo. 'source_sha1' fingerprints the original description; while it still matches, tools/refresh_topics.py shows 'en'. Changed or new non-English descriptions get an English placeholder until translated.",
+ "translations": {
+  "hoolulu/deep-research": {
+   "en": "Professional deep research report generation Skill: one command, ten minutes, broker-grade deep research report",
+   "source_sha1": "8f7bdf7639c64e28a37c575627653d4ab0d60a19"
+  },
+  "hexiaofeier/hehe-industry-research-skill-pack": {
+   "en": "Hehe's original Chinese industry and company research skill pack: one main entry point coordinating 13 specialised Skills, supporting full industry or company research, plus standalone modules for market landscape, market size and company profiles.",
+   "source_sha1": "120a472e8a3b4b16255638f7de7e9791b7e248db"
+  },
+  "norahe0304-art/30x-mckinsey-research-deck": {
+   "en": "McKinsey-grade market research decks for Claude Code: adversarially verified numbers, 15 McKinsey methodologies as executable workflow, multi-agent pipeline. One instruction produces a McKinsey-grade market research deck that can stand up to challenge.",
+   "source_sha1": "56b00888dca6e5cc9d0e8db5280d0d7a953142dd"
+  },
+  "wanshuiyin/ARIS-Anything": {
+   "en": "Generalizing ARIS from academic research to research in general: same five-step loop (plan · draft · adversarial review · iterate · persist) applied beyond academic research to investment DD, legal, market, self-directed learning, journalism, engineering post-mortems (academic research ⊂ research) 🌱",
+   "source_sha1": "9a8175a91a2f50df96dee0e2dec065b259886eda"
+  },
+  "Akun-python/market-survey-topic": {
+   "en": "Dedicated resource library for the Ipsos Cup, Zhengda Cup and market research competitions: 2,000+ topic bank (21 industries), 9 research Skills (topic selection, background analysis, plan design, questionnaire design, data analysis, charting, report writing, abstract writing and conclusions), scoring criteria and past winners, open-source toolchain and practical templates, helping teams take research from 0 to 1.",
+   "source_sha1": "7ace6d7d50727edb4411e995299ae07771e6be79"
+  },
+  "xxyshawn-creator/yuge-overseas-sales-research": {
+   "en": "By Yu Ge · Overseas sales company research Claude Skill: a standard 'five looks, six decisions' report in 30 minutes · for client visits / distributor due diligence / competitor analysis / new market entry / job interviews",
+   "source_sha1": "2b0bba3e0e597949f49d2104b5c44d1982aa6822"
+  },
+  "geekjourneyx/industry-research": {
+   "en": "Professional industry research Skill that turns industry, sector and company questions into a verifiable research workspace, evidence ledger, confidence-rated report and final research report.",
+   "source_sha1": "f6266e21bb14a9a41785065be670656dcd43bbdd"
+  },
+  "chnjames/tradehot-skill": {
+   "en": "Foreign Trade HOT Skill: a Chinese-language intelligence tool for cross-border e-commerce and export businesses that turns scattered trade information into actionable business briefings. Supports 9 report types including daily reports, platform policy, HS codes, tariff lookups and risk alerts.",
+   "source_sha1": "8028fe88d9f9fd83ac717f64972879925dbc934c"
+  },
+  "Huangxxuan/strategic-marketing-director": {
+   "en": "A business marketing strategy decision brain with 8 years of hands-on experience, for 6 kinds of decision-makers: brand consultants, business owners, CMOs, product managers, operators and CEOs. When a marketing question comes in, it routes to the best decision framework, runs a 5-stage closed loop and produces a structured, actionable, data-driven marketing plan.",
+   "source_sha1": "e2ac6dfb62776c70276ff18bf4fb838d59b71eb0"
+  },
+  "LunaGeller/competitor-analysis-skill": {
+   "en": "Chinese-language Codex Skill: generates structured competitor research and opportunity assessment reports",
+   "source_sha1": "ea35b30eb2c2a62dae9fbf7e211f95bd7c8cf854"
+  },
+  "cumin777/xianyu-hotword-scout": {
+   "en": "Xianyu keyword popularity tracker: collects daily data on listed items, calculates supply-demand ratio, growth in 'wants', price bands and competition, and produces a ranking of hot-selling keywords (tested against the October 2026 protocol, lightweight pure Python)",
+   "source_sha1": "247e54c05d954f3129563d84b16d59222dc52172"
+  },
+  "duceman495/xianyu-radar": {
+   "en": "Xianyu market radar: collect → analyse → report. Uses an 'opportunity score' (demand/supply ratio) to find price bands where people are searching but nobody is selling. Works as a CLI or an AI Agent Skill.",
+   "source_sha1": "f5f6d1eaac9aa249ef1b33f7bc33fdc679809707"
+  },
+  "laozdao/limit-up-dao": {
+   "en": "Laozi Dao limit-up stock batch attribution tool: systematic attribution analysis of China A-share limit-up stocks based on open-source LLMs | Limit-up stock attribution analysis tool powered by open-source LLMs",
+   "source_sha1": "88096f4011d3c73a0a8769cc892259d8076e61aa"
+  },
+  "diandian1001/competitive-analysis-workflow": {
+   "en": "Standardised competitor analysis workflow: a five-stage process framework for market and competitor research in operations, product and content roles",
+   "source_sha1": "2ccd27e5c34c6e29fcf8d90bdb8f8d57b89d4fee"
+  },
+  "Mingxin-Sun/National-Award-Report": {
+   "en": "National first-prize report, 13th National College Student Market Survey and Analysis Competition: brand building and marketing of Yiliang Xiaocaoba gastrodia under the rural revitalisation strategy and 'one county, one product' programme",
+   "source_sha1": "acfe5e6cd761cc30e97df9e59514df2a3b7e45f5"
+  },
+  "WwaitW/competitor-intel": {
+   "en": "AI competitive intelligence system · Competitive Intelligence Tool. Enter a competitor's name and get a full analysis report in 2-3 minutes. 5 AI Agents · LangGraph · Streamlit · supports DeepSeek / GPT / Claude.",
+   "source_sha1": "81751b72435d6f8f0bf982a3cc033cad20769093"
+  },
+  "Zhn-Rui/industry-research-skill": {
+   "en": "Codex industry research workflow: evidence tracking, staged reviews and cross-session handoff. An industry research skill with evidence tracking, staged reviews, and session handoffs.",
+   "source_sha1": "efee7d96ba0757a2e8769bdf08c1901eb36263c8"
+  },
+  "503496348-ops/energsolve": {
+   "en": "Energsolve: an agent-based competitor analysis system",
+   "source_sha1": "d99ad5002f67593c371ceee0b28ef8b1097eb255"
+  },
+  "JavaLyHn/product-audit": {
+   "en": "Automated in-depth product review Claude Code Skill: compresses about 2 hours of expert product research into 5-60 minutes, producing structured Markdown + HTML reports. Focuses on how understandable and complete product features are (not UI aesthetics), for SaaS / AI Agent / web products.",
+   "source_sha1": "ecba4d2fe1742abaebae6d97d6cceafb5f75c8fc"
+  },
+  "mahingbun-dev/xhs-pain-miner": {
+   "en": "🔍 AI-powered Xiaohongshu (RedNote) user pain point discovery & analysis. NLP + VLM multimodal analysis for product managers and entrepreneurs. Uses AI to automatically find real user pain points across huge numbers of Xiaohongshu notes and comments.",
+   "source_sha1": "c087c9010989f0986d73a1a7c1d491ff67c62521"
+  },
+  "hexiaofeier/hehe-survey-question-design": {
+   "en": "Hehe user research questionnaire design Skill: from research goals to variables, questions, quotas and routing, delivering a detailed MD draft, a Word draft and a Wenjuanxing import file.",
+   "source_sha1": "9204f1808812518e51cf6919bcd8eae40674c438"
+  },
+  "maojiebc/majia-siyu-team": {
+   "en": "Private-traffic expert team · Majia hands-on edition: in-store private-domain scenarios, execution methods and member data collaboration · v1.5.0",
+   "source_sha1": "874f4c46336f6bc22fb4588f29e29d605443843e"
+  },
+  "sunny-kobe/pain-miner": {
+   "en": "Find what to build next. Mine user pain points from HN, Reddit & Product Hunt | Find the next product worth building by mining real user pain points from community discussions",
+   "source_sha1": "4cd3160cb3af05c03109bddf4e147ff941c383dd"
+  },
+  "DNjoker/industry-insight": {
+   "en": "A desktop tool that generates structured industry analysis reports in one click",
+   "source_sha1": "32e91d6f42ad43dd1c1218bc9cebdd74e52dd4c9"
+  },
+  "frankglendon/cleanvey": {
+   "en": "🧹 Explainable quality control for survey data: 15 transparent rules + an LLM judge flag low-quality responses, each with a plain-language reason",
+   "source_sha1": "07f3ab839ca9cdce2c9b879b54fb4f0eca75cbb5"
+  },
+  "frankglendon/deckforge": {
+   "en": "📊 Generate consulting-grade (McKinsey-style) desk-research decks from data, in Python (native editable charts / bilingual English and Chinese / 51-page MECE example)",
+   "source_sha1": "acb9c934a52f2f262162182d80ea4b0d27d63d47"
+  },
+  "hisunfei/Great_Wave": {
+   "en": "🌊 'Make Waves': 16 lessons for newcomers to understand an industry | Introductory industry analysis course | Industry Analysis for Beginners - 16 Lessons",
+   "source_sha1": "4197d9525eec99539d403c840fbeccca25963cde"
+  },
+  "leroiu/competitor-research-skill": {
+   "en": "Competitor research and differentiated positioning | Answers 'where should we avoid head-on competition' | Supports quick scans and deep research | Multi-format export (MD/Excel/PDF/JSON)",
+   "source_sha1": "0d200777e42d0202edecae4d49a020512787bfe1"
+  },
+  "liujialang23-blip/JiaHe-Business-Feasibility-Skill": {
+   "en": "One-click business feasibility report skills | AI Business Feasibility Report Skill: generates a business feasibility study in one click, covering location and transport maps, nearby amenities, business model, compliance risks and a phased rollout path.",
+   "source_sha1": "70704ed74b5e494760932c557e817b00c4d87910"
+  },
+  "qs3c/E-commerce-cli": {
+   "en": "CDP-powered e-commerce product research CLI for human-paced browser collection, competitor price comparison & Excel reports. E-commerce research, competitor price comparison and Excel reporting built on a real Chrome browser. JD.com supported; Taobao, Pinduoduo, Amazon & more planned.",
+   "source_sha1": "b79507e290c309c5b76691e421c0331ec7291888"
+  },
+  "wentaoz/RivalRadar": {
+   "en": "RivalRadar is a macOS competitive intelligence monitoring tool that collects from RSS, web pages, Tavily search and Chrome sessions, with AI deduplication, summaries and report generation.",
+   "source_sha1": "1f1ab30e0f9acc99d99fae2806188f7a86209fb7"
+  },
+  "xhqing/ProductStrategistAgent": {
+   "en": "Product Strategist Scout | the assessment entry point, producing opportunity assessment reports. Product Strategist: research & strategy entry of a digital-product pipeline.",
+   "source_sha1": "5d1ea8a07269933df6c329e4793e75dc045c9ac4"
+  },
+  "YiYiMi11/market-survey-ai-kb": {
+   "en": "AI knowledge base for the online theory exam of the National College Student Market Survey and Analysis Competition: searchable bank of 610 past mock questions, 18 chapters of knowledge cards, common-mistake explanations and an open-book answering guide",
+   "source_sha1": "8a213b120af64842a828121228770c2c3af974f3"
+  },
+  "zhihaoli18874/tideview": {
+   "en": "TideView | usable directly in mainland China without a VPN. One workspace for A-shares, Hong Kong stocks, domestic futures, US and Korean stocks, forex, crypto and precious metals; global markets need the flagship edition. Closed-source product documentation and feedback hub.",
+   "source_sha1": "62ab68828da4a0c4b4ad184373fddf459a0a8b19"
+  },
+  "zhoudibo/marketing-assistant": {
+   "en": "AI-driven market research tool · finds demand gaps · identifies differentiation opportunities",
+   "source_sha1": "99e9dd5d051d2152ab747751fa46002f052dbb0d"
+  },
+  "aceFelix/jarvis-plugins": {
+   "en": "Official J.A.R.V.I.S plugin marketplace: usable as soon as jarvis is installed, with no extra configuration.",
+   "source_sha1": "4cf1660e61a65f9dfd9575bf2f76dbeb11f9b177"
+  },
+  "alingowangxr/skill-research-hub": {
+   "en": "a repo for agent skill market research; analyses the state of the agent skill market",
+   "source_sha1": "caff0f9aaa605e0e625f5d48b404bb4356a39d44"
+  },
+  "Auther-sudo/game-market-research-pipeline": {
+   "en": "Data-driven research pipeline for greenlighting SLG hybrid-gameplay projects: collection → five-dimension scoring → proposal cards → interactive report.",
+   "source_sha1": "9a2e466f4c124866987dea5668ae2ff63524c7b3"
+  },
+  "chaonannn-a11y/quantitative--crosstable-skill": {
+   "en": "AI skill (Claude Skill format) that turns raw survey data into a weighted cross-tab (banner table): NPS net / Top-2-Box / multi-select NET, styled xlsx. A skill for producing weighted survey cross-tabs.",
+   "source_sha1": "de0ecd5532fbee447eadce851019a7317750f162"
+  },
+  "ckw19810413/digital-product-research": {
+   "en": "In-depth research and bottleneck analysis report on digital product sales",
+   "source_sha1": "217546489c834af1559ab6061febc17f340e994a"
+  },
+  "daizhouchen/market-research-skill": {
+   "en": "Adaptive market demand analysis skill for Claude Code",
+   "source_sha1": "5039ea5995a746885bd6e9aabad974cb4d384d4b"
+  },
+  "HeIIoAgain/dsh-morning-brief": {
+   "en": "Daily semiconductor industry morning briefing skill: searches overnight product and technology news → maps the impact on A-shares and Hong Kong stocks → in-depth Word version + automatic email delivery.",
+   "source_sha1": "857aa62ac5813d60dfa6e48bd503fd213b8251a6"
+  },
+  "hexiaofeier/hehe-survey-analysis-workbook": {
+   "en": "Hehe user research statistical analysis Skill: question-by-question statistics, cross-analysis and interpretation of Excel / CSV / SAV survey data, delivered as a verifiable Excel workbook.",
+   "source_sha1": "094f4586549d873b28cc572b190c1c03abaafd83"
+  },
+  "IDAdu/ai-data-collection-hardware": {
+   "en": "Quick overview of hardware and specs for embodied-AI data collection: five collection technology routes, system components, 8 parameters to check when choosing, industry standards and representative datasets. Data as of August 2026",
+   "source_sha1": "1bf8c266173a33e3d12aeafb32435d2ab7ea15e4"
+  },
+  "IDAdu/embodied-ai-top50": {
+   "en": "Company-by-company profiles of 99 embodied-AI companies worldwide: three industry maps, two-axis tags and details of 340 funding rounds. Data as of 17 September 2026",
+   "source_sha1": "a755358d049ae64c96305278f5f750c8028c2b15"
+  },
+  "jiguang9/industry-research": {
+   "en": "Open-source Agent Skill for researching industry structure, business models, value chains, competitive landscape and recent changes; supports Claude Code / Codex / OpenClaw / Hermes Agent",
+   "source_sha1": "67365bcca8851876dfb0f2bc8626fc880c7a27ba"
+  },
+  "judefluen-coder/damo-tracker": {
+   "en": "Morgan Stanley closed-door meeting tracker: extracts verifiable strong signals for A-shares and Hong Kong stocks from public videos and subtitles.",
+   "source_sha1": "9e88aab8e15c6a0490482bbf5b5be1cea0fd8137"
+  },
+  "KayZhongyi/public-web-census": {
+   "en": "Read public voices, track visible signals, and ground AI in traceable evidence.",
+   "source_sha1": "2bea16975cb7a5d81f4e4a15d0d0ee846442101f"
+  },
+  "kyanite03/chengdu-env-market-research": {
+   "en": "Bilingual (English/Chinese) market-entry research for Chengdu Environment Group in Australia: market research, compliance guide and interactive payback models. NexStar Excellence Award, City of Melbourne.",
+   "source_sha1": "927e8ed4199a4ebb95cf308c21e220629de43575"
+  },
+  "luqi67677/market-table-research": {
+   "en": "Evidence-driven market analysis & competitive research Skill | evidence-driven market, competitor, user and product research with multi-source verification, producing traceable Word/Excel/Markdown reports",
+   "source_sha1": "090c25693d34748a7474caaca2fd8e6072dbc00b"
+  },
+  "msj2531232612-png/from-need-to-market": {
+   "en": "Turns vague ideas and needs into verifiable market directions, finds existing products and alternatives, and outputs categorised result cards, evidence records and an action plan you can pick up later.",
+   "source_sha1": "e162967fd6927e171c00e992614707d90f232485"
+  },
+  "NextVariable/global-gtm-strategy-skill": {
+   "en": "Overseas market research and GTM strategy: choosing a market, first customers and an entry route. Evidence-based market selection and a route to first paying customers.",
+   "source_sha1": "b7e4b07bb448dfb50d2744ec05a793035588e56d"
+  },
+  "NextVariable/Vantage": {
+   "en": "Research recent tools, market developments, discussions and user feedback across platforms from the last 30 days, for PMs, GTM teams and tech explorers.",
+   "source_sha1": "a24a0838f39d93cf99739ca928e64917cf1e8faf"
+  },
+  "poweredbyai/dsh-consumer-insight": {
+   "en": "Consumer insight desk: enter project goals and research type to generate questionnaires, analysis frameworks, sampling quotas and Word/Excel deliverables. A consumer research desk plugin for DeepSeek Harness.",
+   "source_sha1": "02480d2df49994b191d7021095fd726a77a8bb6b"
+  },
+  "ProfessorZhi/marketops": {
+   "en": "MarketOps: an MCP-driven market operations research pipeline with evidence-first contact route discovery, freshness checks and auditable reports",
+   "source_sha1": "ab103953ebaf9bddb6292537107c31adde1d9dc9"
+  },
+  "xiaokangxxs/xiaokangxxs-miniprogram-scout": {
+   "en": "WeChat product opportunity decision Agent Skill · global scouting / turning user needs into products / explainable scoring / devil's-advocate review / validation loop / 14-day trend memory.",
+   "source_sha1": "b524cddacd188e2d2a7df3d3bdb7752f417dfc8d"
+  },
+  "ziho7/idea-validator": {
+   "en": "Before you build, find the evidence. An Agent Skill that validates product ideas using real user complaints, alternatives and counter-evidence.",
+   "source_sha1": "5c87dfbba59bcabffc8ca0099e324147f44f07c3"
+  },
+  "a2578348864a-sys/lightchoice-radar": {
+   "en": "Public intelligence workspace for cross-border e-commerce product research and product development decisions: collects traceable platform policies, regulatory updates and industry leads, with deterministic rules and no new paid services.",
+   "source_sha1": "ac83eca11aad28e79cc3e2c366bde35f6d276506"
+  },
+  "a2578348864a-sys/lightchoice-workbench": {
+   "en": "An evidence-driven research workbench for Amazon product discovery and product development decisions, focused on Amazon US.",
+   "source_sha1": "eddb85f95e7551c7671051c5e06c5362d38fe8d2"
+  },
+  "Adn-thkim/competitive-intel": {
+   "en": "🔍 A LangGraph multi-agent system that goes from one search term to finding competitors → feature comparison → customer reaction analysis → a research report, automatically",
+   "source_sha1": "6c3b7867f376c18de501a607ae1a01e66c9eda30"
+  },
+  "ahdezneytiry-boop/silver-guardian-survey": {
+   "en": "Study of awareness and adoption of AI health services among older people in Jiangsu (SEM + SHAP)",
+   "source_sha1": "b7bca8c439fefc23c8c1cdba6087051857dc5e75"
+  },
+  "Alexxiang2008/hlzd-b2b-export-skills": {
+   "en": "Agent Skills for B2B industrial exporters: market research (HS code, UN Comtrade, Google Trends, tender), buyer finding (Alibaba + Volza customs), inquiry qualification, voice-contract HTML reports. By HLZD.",
+   "source_sha1": "9024d68bf782fae51511843861486cc1318d9f88"
+  },
+  "AlexYoung99/wanghuiwen-product-research-skill": {
+   "en": "Wang Huiwen Product Research Methodology, Claude Code Skill | a 12-stage structured product research framework distilled from his Tsinghua product course",
+   "source_sha1": "3b195506794df23ed10fc8fb207beaca2091586b"
+  },
+  "api-evangelist/brandct": {
+   "en": "BrandCT: independent third-party profile of a public API surface, by API Evangelist. BrandCT is an offline-retail market-monitoring service operated by Mashangying (Mashangying Market Research / yikuaigao), a Chinese retail-data company. It has built a national offline-retail monitoring network based on POS data from a panel of sample stores, and delivers bran",
+   "source_sha1": "422dafeee69117ebe656c40be05640475a5a9f17"
+  },
+  "Bless-Tien/industry-monitor-skill": {
+   "en": "General-purpose industry monitoring AI skill: competitive intelligence gathering and analysis for any industry",
+   "source_sha1": "94423252309139c489befcd2b58678dd8bb852b9"
+  },
+  "bonghyunyang/trade-skills": {
+   "en": "A Claude skill on trade statistics and market prioritisation for overseas sales staff: HS-code and country-level import/export statistics and new market discovery. No API key needed.",
+   "source_sha1": "d0bf362d63847bdecc00019dea9fda59fa05fc42"
+  },
+  "bright-cn/6sense-company-information-dataset-samples": {
+   "en": "Explore company data through the Bright Data API for business intelligence insights.",
+   "source_sha1": "0a400d7fb14f32c24a6eba62948ec13b393708f6"
+  },
+  "bright-cn/Agoda-Properties-dataset-samples": {
+   "en": "Sample dataset of Agoda listings obtained through the Bright Data API, for market analysis.",
+   "source_sha1": "c765ebea0561667dfc28ddad7020f750f83b1224"
+  },
+  "bright-cn/amazon-best-seller-scraper": {
+   "en": "Free trial | Amazon best seller scraper: track Amazon's best-selling products, rankings and category trends",
+   "source_sha1": "3c7387b2a5d233e3f9afda9e42a51635f8d53b52"
+  },
+  "bright-cn/apple-app-store-scraper": {
+   "en": "Free trial | Apple App Store scraper: extract app listings, ratings, reviews, pricing and developer data",
+   "source_sha1": "a680e744f3e46971d1a0db5de065e7cd2fa5acf2"
+  },
+  "bright-cn/Carsales-Cars-dataset-samples": {
+   "en": "Car listings obtained through the Bright Data API, for market analysis and price trend research.",
+   "source_sha1": "30b04db43358a7176e6701c352ceab705059c091"
+  },
+  "bright-cn/Chileautos-Cars-dataset-samples": {
+   "en": "Explore Chilean car listings with the Bright Data API for market analysis and competitive insights.",
+   "source_sha1": "0eb4e3c45e4945d024b545f6619cf1cf1ae6b35e"
+  },
+  "bright-cn/Goodreads-Books-dataset-samples": {
+   "en": "Explore Goodreads book data through the Bright Data API for market research and analysis.",
+   "source_sha1": "789ae76fbc49e49025fc09b35a8449eef0d54110"
+  },
+  "bright-cn/Infocasas-Uruguay-dataset-samples": {
+   "en": "Explore Uruguayan real estate trends with the Bright Data API; ideal for market analysis.",
+   "source_sha1": "b72ddeeed01f85a590d0a126d5474464445c6a8a"
+  },
+  "bright-cn/Manta-Businesses-dataset-samples": {
+   "en": "Business insights through the Bright Data API for market analysis and competitive intelligence.",
+   "source_sha1": "7aee93b5d3417acb7036b55ac40257f36efa8680"
+  },
+  "bright-cn/Metrocuadrado-Properties-dataset-samples": {
+   "en": "Explore Metrocuadrado real estate data through the Bright Data API for market insights.",
+   "source_sha1": "d1b45af68a8f1ca780a526c7553bb2725ca3da54"
+  },
+  "bright-cn/Otodom-Poland-dataset-samples": {
+   "en": "Explore Polish real estate data with the Bright Data API for market analysis.",
+   "source_sha1": "61363d4cb7643bae21897c110c5fa83b5598ccc4"
+  },
+  "bright-cn/Owler-Companies-dataset-samples": {
+   "en": "Explore company data with the Bright Data API for market research and stronger competitive analysis.",
+   "source_sha1": "4ceadcba00c80fe695875873bbb19777d5605858"
+  },
+  "bright-cn/Realtor-International-Properties-dataset-samples": {
+   "en": "Sample real estate data through the Bright Data API, for market analysis.",
+   "source_sha1": "800c880769f1745c536d9ea848792e78194de3cf"
+  },
+  "bright-cn/Trustradius-Product-Reviews-dataset-samples": {
+   "en": "Product reviews through the Bright Data API for insight into market trends.",
+   "source_sha1": "281ab87c910858ed0ac17bcc937061edc95da304"
+  },
+  "bright-cn/VentureRadar-Company-Information-dataset-samples": {
+   "en": "Explore company insights with the Bright Data API for market analysis and research.",
+   "source_sha1": "cfb55f1f7d9d9a649cb5e8343d6f2e16a43792f2"
+  },
+  "bright-cn/World-Zipcodes-dataset-samples": {
+   "en": "Explore postal codes worldwide with the Bright Data API for logistics and market research.",
+   "source_sha1": "2122eb0ef73381e4e4d7992ccc2ef505c078d583"
+  },
+  "bright-jp/6sense-company-information-dataset-samples": {
+   "en": "Explore company data through the Bright Data API for business intelligence.",
+   "source_sha1": "04c3ff111126c1343b8fa154cb6a17d0083a6afe"
+  },
+  "bright-jp/Agoda-Properties-dataset-samples": {
+   "en": "Sample dataset of Agoda listings via the Bright Data API, for market analysis.",
+   "source_sha1": "d908ed98895cb6c823bffe762505d6dffe2c8379"
+  },
+  "bright-jp/Carsales-Cars-dataset-samples": {
+   "en": "Access car listings with the Bright Data API for market analysis and price trends.",
+   "source_sha1": "b918eef79b951fd2fd36bc45f302ffe639f784d5"
+  },
+  "bright-jp/Chileautos-Cars-dataset-samples": {
+   "en": "Explore Chilean car listings with the Bright Data API for market analysis and competitive insights.",
+   "source_sha1": "f555adb582c3b6ccd3eb00dccef7dd108d5dda95"
+  },
+  "bright-jp/Goodreads-Books-dataset-samples": {
+   "en": "Explore Goodreads book data with the Bright Data API for market research and analysis.",
+   "source_sha1": "b098ade2918d2415bcb0f76ef1d3a7a0fccead6a"
+  },
+  "bright-jp/Infocasas-Uruguay-dataset-samples": {
+   "en": "Research Uruguayan real estate trends with the Bright Data API. Ideal for market analysis.",
+   "source_sha1": "b19f5a15a1e056e65b5a6249dc6101d152fc222e"
+  },
+  "bright-jp/Manta-Businesses-dataset-samples": {
+   "en": "Access business insights through the Bright Data API for market analysis and competitive intelligence.",
+   "source_sha1": "14cd548538244da0be8bb0eb570e6900c3a5a94c"
+  },
+  "bright-jp/Metrocuadrado-Properties-dataset-samples": {
+   "en": "Research Metrocuadrado real estate data with the Bright Data API for market insights.",
+   "source_sha1": "7ad3cd8bbdf115d9aa7a5b8a8db8461667dfcb63"
+  },
+  "bright-jp/Otodom-Poland-dataset-samples": {
+   "en": "Explore Polish real estate data with the Bright Data API for market analysis.",
+   "source_sha1": "ad654f5b57d93048f81a0b6c99fb854bcfd9a72f"
+  },
+  "bright-jp/Owler-Companies-dataset-samples": {
+   "en": "Explore company data for market research with the Bright Data API and strengthen competitive analysis.",
+   "source_sha1": "dc39151d804e602805f7727691087f53ce97f77a"
+  },
+  "bright-jp/Realtor-International-Properties-dataset-samples": {
+   "en": "Sample real estate data for market analysis, provided via the Bright Data API.",
+   "source_sha1": "0c8613b5a01ed28d6ca15b78eb55c40929fcec91"
+  },
+  "bright-jp/Trustradius-Product-Reviews-dataset-samples": {
+   "en": "Access product reviews through the Bright Data API for market insights.",
+   "source_sha1": "66cb6dda9b4874c827b678c5d8c01eb666735a53"
+  },
+  "bright-jp/VentureRadar-Company-Information-dataset-samples": {
+   "en": "Explore company insights with the Bright Data API for market analysis and research.",
+   "source_sha1": "e2de75ec6befc5e49af77a97a412ac186d43db5b"
+  },
+  "bright-jp/World-Zipcodes-dataset-samples": {
+   "en": "Explore postal codes worldwide with the Bright Data API for logistics and market research.",
+   "source_sha1": "3e9d415af49bbd56bfcdc5cc2e79c398785c5547"
+  },
+  "bright-kr/6sense-company-information-dataset-samples": {
+   "en": "Explore company data through the Bright Data API for business intelligence.",
+   "source_sha1": "9774cd645dfda200006989d1f3a859991f59a0eb"
+  },
+  "bright-kr/Agoda-Properties-dataset-samples": {
+   "en": "Sample dataset of Agoda listings via the Bright Data API, for market analysis.",
+   "source_sha1": "b969bad8d9e8dff7531d4e4c98416890c86708ab"
+  },
+  "bright-kr/Carsales-Cars-dataset-samples": {
+   "en": "Access car listings with the Bright Data API for market analysis and price trends.",
+   "source_sha1": "0fd45a64954c4747172406120cb298a793d7b7b4"
+  },
+  "bright-kr/Chileautos-Cars-dataset-samples": {
+   "en": "Explore Chilean car listings with the Bright Data API for market analysis and competitive insights.",
+   "source_sha1": "50e2a4c1e9f2de7282dbe62abcb606fbda961207"
+  },
+  "bright-kr/Goodreads-Books-dataset-samples": {
+   "en": "Explore Goodreads book data through the Bright Data API for market research and analysis.",
+   "source_sha1": "308b94c8d274097b770f89dcb1b8ebdc831fb702"
+  },
+  "bright-kr/Infocasas-Uruguay-dataset-samples": {
+   "en": "Explore Uruguayan real estate trends with the Bright Data API. Ideal for market analysis.",
+   "source_sha1": "2ade9d8c377ff6a39001b55e39da55a5792704f6"
+  },
+  "bright-kr/Manta-Businesses-dataset-samples": {
+   "en": "Access business insights for market analysis and competitive intelligence through the Bright Data API.",
+   "source_sha1": "389a3897b087188945999e937fc350deacfeb4f4"
+  },
+  "bright-kr/Metrocuadrado-Properties-dataset-samples": {
+   "en": "Explore Metrocuadrado real estate data with the Bright Data API for market insights.",
+   "source_sha1": "673f4891466a5796e789763a822648fb4e49a68e"
+  },
+  "bright-kr/Otodom-Poland-dataset-samples": {
+   "en": "Explore Polish real estate data with the Bright Data API for market analysis.",
+   "source_sha1": "b8f1f183b26e8e784b5c02a64c2b3f8ffadf3ad0"
+  },
+  "bright-kr/Owler-Companies-dataset-samples": {
+   "en": "Explore company data for market research with the Bright Data API and strengthen competitive analysis.",
+   "source_sha1": "4e5d1e315203798e8bee18671900334662c24b24"
+  },
+  "bright-kr/Realtor-International-Properties-dataset-samples": {
+   "en": "Sample real estate data via the Bright Data API, for market analysis.",
+   "source_sha1": "5a9e86ec6fc98229ed8644f86d47e67982ec539f"
+  },
+  "bright-kr/Trustradius-Product-Reviews-dataset-samples": {
+   "en": "Access product reviews for market insights through the Bright Data API.",
+   "source_sha1": "62d76bb94dcb99f27b5df95eb81408a5b9c58636"
+  },
+  "bright-kr/VentureRadar-Company-Information-dataset-samples": {
+   "en": "Explore company insights with the Bright Data API for market analysis and research.",
+   "source_sha1": "3421390a70bfdf57b4c66d17fac721c934456b75"
+  },
+  "bright-kr/World-Zipcodes-dataset-samples": {
+   "en": "Explore postal codes worldwide with the Bright Data API for logistics and market research.",
+   "source_sha1": "23442bbb31cb297b5b31932298df2a8c3e7c88e6"
+  },
+  "cczxuan/market-research-assistant": {
+   "en": "Market research assistant: given a product-selection topic, it searches, pulls original sources, cross-checks and writes in tiers, producing three traceable reports: main text, evidence book and evidence table",
+   "source_sha1": "699c54493ddd879bd781c01b6fb07133cc59e8f4"
+  },
+  "child-alive/ai-market-diagnostic": {
+   "en": "AI overseas market diagnostic agent | Liu Chang's test project for an AI R&D engineer job application",
+   "source_sha1": "d50d2459b21f47036f5f7f7c361b1eb5eaea7da0"
+  },
+  "cxtx/industry-market-research": {
+   "en": "Yanju Xiaodiao | open-source industry market research Skill for Claude Code, Codex and WorkBuddy: produces sourced, recomputable Markdown/PDF reports with key-metric infographics.",
+   "source_sha1": "eaf415482576ef66e9c9a2d6b513da5535a29d36"
+  },
+  "DaizeDong/daily-hotspots": {
+   "en": "Daily frontier business opportunity radar: multi-source collection → classification and scoring → cross-day deduplication → tiered Discord delivery + private archive.",
+   "source_sha1": "24bca39b92e578b95eecfcf0a1d006edd309b695"
+  },
+  "djbhnds/dengbao-bid-data": {
+   "en": "Dataset of Chinese MLPS (cybersecurity classified protection) tenders and awards · 2,104 public notices, 112 award amounts · price percentiles and tender cadence by province and industry · JSON/CSV + schema · deduplicated across sources and anonymised (no organisation names or contact details) · CC BY 4.0",
+   "source_sha1": "6b10105bd5b8b31dd2dfa049aa10402bda4820e3"
+  },
+  "Ethan-upgrade/dify-market-research-assistant": {
+   "en": "Market research report assistant: Dify Chatflow (recursive retrieval + globally numbered citations) + a zero-dependency Python version; one sentence of requirements produces a traceable market research report with citations",
+   "source_sha1": "c03bee24ede9293dd5a53e9a69358a4471eac198"
+  },
+  "Fan-dev-sktch/niche-aesthetic-sourcing": {
+   "en": "Turn aesthetic intuition into a testable business. A niche-aesthetic product sourcing Codex skill: purchase evidence, whole-order profit, budget constraints and limited test sales.",
+   "source_sha1": "660f802a96f781e71b6bf7438106c1815cd61c97"
+  },
+  "FloydTang/trade-market-intel": {
+   "en": "By Banjin Jiuliang Tech | market background research Skill: the first step in proactive foreign-trade prospecting, comparing market size, growth and OEM/ODM/trading/brand fit, linked to AI trade news and customer search.",
+   "source_sha1": "91c361bae2b6cd9fbed94312a9aad42e7f65037a"
+  },
+  "gaoym121/fable5-roadmap": {
+   "en": "76 bilingual (English/Chinese) single-page atlases of how AI is actually eating each industry: lifecycle nodes, named products per stage, A–D graded evidence, and what AI still cannot chew. Zero dependencies, fully offline.",
+   "source_sha1": "c175bfe5c0d2d45e6b3ba1cba7b9f522424ed2fb"
+  },
+  "HanThing/HanThing": {
+   "en": "24-hour fixed-scope paid pilot and public verification samples",
+   "source_sha1": "259e776d84371228d302be7de9bfa0c2b90313bb"
+  },
+  "hexiaofeier/hehe-research-project-planning": {
+   "en": "Hehe research project planning Skill: client needs, research methods, report framework, realistic scheduling and a full cost quotation; runs standalone and supports HTML/PDF proposals.",
+   "source_sha1": "90ae2e1271b62067f0d87a2ca1f6a4a9fc86d5a3"
+  },
+  "huanpeng69-cmyk/amazon-ai-growth-os": {
+   "en": "🚀 Amazon AI Growth OS: a multi-agent growth operating system for sellers",
+   "source_sha1": "c5dee441704a35a2765d860711fdab8280389990"
+  },
+  "Jay-0807/firefly-deep-research-skill": {
+   "en": "General-purpose deep research skill for Claude Code: 9 scenarios + 8-stage pipeline + bilingual source pipelines + citation validation",
+   "source_sha1": "04f76eeb123dfa67e078f70532055e79eebada72"
+  },
+  "jiaojiaosr4/shortdrama-monetization-research": {
+   "en": "Competitor research on monetisation in overseas short-drama apps: coin economy models × ad tracking × business loop analysis (ReelShort, DramaBox, Melolo and 6 more)",
+   "source_sha1": "c8f26338c13c9c74923756907351185147012a58"
+  },
+  "jieshu666/jianshi-chengce": {
+   "en": "Jianshi Chengce: a deep-report Skill that goes from industry trends to action decisions | Evidence-backed industry research and actionable HTML reports",
+   "source_sha1": "4ca88dc917d6209c06ca415c1a77b7789ada1c77"
+  },
+  "JoluneZ/consumer-segmentation-drivers": {
+   "en": "E-commerce consumer behaviour segmentation (KMeans + silhouette score) + key driver analysis (standardised logistic regression) on 12,000 real sessions from the UCI online shopping dataset. Consumer segmentation & key-driver analysis.",
+   "source_sha1": "e3b6455b9f96cdd414af6e54ebf4dd6a10f1ecb7"
+  },
+  "Jupiepy/Consumer-Research-ZGen": {
+   "en": "Survey-based study on how emotional value drives Gen-Z consumption of \"pretty food\" in China: factor analysis, reliability testing and text mining on 531 valid responses.",
+   "source_sha1": "1503b135af2bcc3939c0c509ed2117c462ca7b19"
+  },
+  "jwhitekim/agent-trends": {
+   "en": "A CLI that collects LLM agent industry trends and leading companies through official APIs",
+   "source_sha1": "1f181f2ba2d14badf7d546de830d5c0c555f1b36"
+  },
+  "Kev1nLS/market-research-workflow": {
+   "en": "A complete workflow from product idea to market research report: an AI-executable six-step research method (WorkBuddy / Claude Code skill)",
+   "source_sha1": "2bb8fb7f7b0ca1b0bde19a471911e3eae8fc9502"
+  },
+  "kg-trend/fashion-planner-research": {
+   "en": "Fashion planner sales and market research: price, fabric cost, customer age, target",
+   "source_sha1": "87717e98d09da05cda569b9563ec6d408471f001"
+  },
+  "kikki-fim/CrossBorder-Insight": {
+   "en": "Competitor intelligence and industry insight platform for going overseas | Cross-border Market Intelligence",
+   "source_sha1": "3cc6b033931f52783c58012dec0855184a2e1471"
+  },
+  "kimi0hhhh/market-research-sop-skill": {
+   "en": "Multi-agent market research SOP: define → 3 parallel lanes → financial model → verdict → chart & dual-format delivery · copy-ready dispatch templates + R1–R6 gates · 10 chart archetypes · dual-host",
+   "source_sha1": "265784ca70bc35919702d5f530efc0dfc59708d7"
+  },
+  "KKKKkrisPhillllll/user-research-voc-governance": {
+   "en": "A Codex Skill for external VOC collection, evidence governance and traceable delivery",
+   "source_sha1": "a445406c4f50af8d2c9bf36ebb745df0301ad142"
+  },
+  "lengocdai102-hub/ios-market-research": {
+   "en": "Feasibility research for indie developers on the US App Store: full collection of 11,841 apps, 9/9 cross-verification and direction analysis",
+   "source_sha1": "badf52eaeae7573c10541da543efc02df8953890"
+  },
+  "lhg-plugs/lhg-competitor": {
+   "en": "Competitor analysis expert: one sentence generates a competitive intelligence report (five-dimension framework + comparison matrix + SWOT + differentiation advice) | One-step install: /plugin marketplace add lhg-plugs/lhg-competitor",
+   "source_sha1": "2a65ab41b63a5bf3191883c164908f1780b5e08e"
+  },
+  "linxumoney/fresh-signal-researcher": {
+   "en": "Open-source last-30-days trend and competitor research Skill: checks event dates, independent sources, community sentiment and market momentum.",
+   "source_sha1": "03e974f0a2cb68a748bbbbca302095d652e0387a"
+  },
+  "ljsysfurryACE/dsh-ecosystem-analysis": {
+   "en": "dsh plugin ecosystem watch: category statistics and blue-ocean analysis of 487 curated plugins (15 Aug 2026)",
+   "source_sha1": "dc9fd35dfc297316bf76689492960759319bf632"
+  },
+  "ljunnan24-hash/Product-Agent": {
+   "en": "Local-first product analysis agent that researches supporting and opposing evidence and produces auditable reports",
+   "source_sha1": "b3defee93e5a3edba7e81db611959c032dceccaf"
+  },
+  "Loeffel-zqy/writing-industry-research": {
+   "en": "Professional Chinese-language industry research Skill: turns industry, sector and company questions into an auditable research pipeline, with two templates and four stages, every number linked to a fact card, a counter-argument in each chapter, confidence grading and a final draft that passes automated checks with zero failures. For Claude Code and other agents that support the Agent Skills spec.",
+   "source_sha1": "7039face1357dc4c98e557169e13dcd1815a50fa"
+  },
+  "luqi67677/validate-opc-project": {
+   "en": "Uses evidence for and against, a five-role review and stop lines to judge whether a project suits a one-person company (OPC).",
+   "source_sha1": "d38fa50ae065c26812ffcd523f9ee0bd4703b097"
+  },
+  "mayflower0829-afk/tubo-survey": {
+   "en": "Interactive analysis platform for the market survey data of 'Tubo Gou Xiang Cheng', a national first-prize project in the Three Innovations competition | frequencies / chi-square / Spearman / Cronbach's α hand-written in the front end | 400-sample simulated data calibrated to the report (honestly labelled)",
+   "source_sha1": "87d7001bdb6764b0c82235df5c435c363c5f4605"
+  },
+  "mayue-labs/secondhand-platform-analysis": {
+   "en": "2026 overview of China's second-hand trading platforms: Xianyu, Zhuanzhuan, Paipai Yanxuan, Duozhuayu and Dewu compared, with market share, category fit and a selling guide",
+   "source_sha1": "0dc161102238faae1a0789671d57c01b4dca05f7"
+  },
+  "mengfanfreyachan/researchsignal-studio": {
+   "en": "A business research workspace that extracts traceable user evidence from public discussions across platforms",
+   "source_sha1": "47b6677b8605a924174dff9f63eda6b7f7d6728e"
+  },
+  "mifanr/demand-recon": {
+   "en": "A Claude Code skill for deciding whether a product direction is worth building. Five progressive tiers, the first three cost nothing, and it stops as soon as a veto item is hit.",
+   "source_sha1": "dab80e8a85400ced493dbc4d327285ac3222f35b"
+  },
+  "Moments-top/momodi": {
+   "en": "Momodi Momo CLI + MCP server: ask a decision, get a sourced research report. npx -y momodi",
+   "source_sha1": "662fccb5de2383210ca5d1663be6134d3e4c1e48"
+  },
+  "momoliang523-oss/trend-radar": {
+   "en": "Going-overseas trend radar: an all-in-one market research workspace combining overseas trending-topic aggregation, AI follow-up analysis and trend reports",
+   "source_sha1": "3477db50779bd3aa30ddc783f35eeaf83b51d211"
+  },
+  "naohisastry/global-smart-tv-market-dashboard": {
+   "en": "Global smart TV and TV OS market dashboard (2015–2025): smart TV shipments, reach by TV OS and regional share, with every data point linked to a primary source.",
+   "source_sha1": "4374576bd9fd825e4d15d7b966a0533defc57a16"
+  },
+  "naohisastry/media-ip-financial-dashboard": {
+   "en": "Cost-structure comparison (2024–2025) of Japanese commercial key broadcasters vs. global mega-IP holders, Hollywood studios, Super Indies and major streamers.",
+   "source_sha1": "7505bd15eaf54afbbfcf98438bd41c123a20f70b"
+  },
+  "ninggui/ev-after-sales-knowledge-management": {
+   "en": "EV after-sales knowledge management methodology: battery, motor and electronics repair market data, training system comparison, five steps to build a knowledge base, and AI implementation",
+   "source_sha1": "4c59d2f26342b66a37d60ceba44f1a35e60937aa"
+  },
+  "NinjaSln-labs/shisui": {
+   "en": "Shisui: sustainable opportunity hunter CLI: evidence-gated (G1–G5), user-decided verdicts, viable wedges over head positions.",
+   "source_sha1": "152a49bfd68b29f6598b3235149ceec4fef42d23"
+  },
+  "okdataapi/bilibili-creator-monitor": {
+   "en": "Daily snapshots of Bilibili creators (UP hosts): followers, new videos, and each video's views, likes, coins and favorites over time, saved to CSV. Python, no dependencies.",
+   "source_sha1": "aa4c32fb3f371cde359c6f14cbdaca537cc2b41f"
+  },
+  "okdataapi/douyin-keyword-trends": {
+   "en": "Daily Douyin search trends for your keywords from the official Douyin index (Juliang Suanshu): search and composite index, related words and audience, saved to CSV. Python, no dependencies. Chinese social media data in English.",
+   "source_sha1": "fc3331cca2b3aadeda02a818271e1a49d56f0a18"
+  },
+  "Patch-A/exhibition-market-research": {
+   "en": "Read-only market research Skill for international exhibition companies: looks up companies, buyers, peers and trade shows, analyses overseas markets and generates Feishu cloud document reports.",
+   "source_sha1": "893ddd2452e896c1bdce6ea26ffb91f8fdaec75d"
+  },
+  "petermind/venture-research": {
+   "en": "Claude Code skill: business feasibility research and an execution plan, using a falsification-first three-stage method plus a single-file HTML report template and validation",
+   "source_sha1": "9d8e0b3aea801141d3db5b29aa8e3a878558963f"
+  },
+  "Qson8/paidscout": {
+   "en": "PaidScout: research engine for paid & offline App Store apps, built for indie developers choosing what to build",
+   "source_sha1": "07a0b509e663d097225513ad8dd6012c71d0061a"
+  },
+  "raymanlim/industry-research-squad": {
+   "en": "Verification-constrained multi-agent methodology Skill for deep industry research: four information categories, three credibility levels, three-tier source governance, an independent fact-checker with veto power, one file per chapter with mechanical assembly to avoid concurrent overwrites, plus three reusable scripts for definition calibration, a verification ledger and number auditing.",
+   "source_sha1": "da31c0dba88371e1a0bfca1a01b78484a555bec8"
+  },
+  "RoyLanlan/indie-ledger": {
+   "en": "A follow-up ledger of products launched on Show HN: which are still alive and which have died",
+   "source_sha1": "8cacbf2d67f21a26b44bfb65d9d97ddbc99c773c"
+  },
+  "SamCuipogobongo/reddit-intel": {
+   "en": "Claude Code Skill: mines competitor intelligence from Reddit. Automatically finds pain-point keywords, target communities and user posts, and analyses comment threads for competitor mentions and unmet needs.",
+   "source_sha1": "4670efa29797d8748b0656c415d0b71dcfe54c6b"
+  },
+  "sean198604/product-research": {
+   "en": "Product market research, Product-Research (port 7005)",
+   "source_sha1": "dbb596a561e4760f04667952373355d7cbb55054"
+  },
+  "Serennity007/a-share-index-research-skill": {
+   "en": "Taotao's A-share index research: large-cap vs small-cap performance, advancing stock counts and sample coverage, with data, commands and interpretation.",
+   "source_sha1": "caa7e2b14064e80c630a33a05d5dca7bda867089"
+  },
+  "Serennity007/crude-oil-research-skill": {
+   "en": "Taotao's crude oil research: supply and demand, shipping and calendar spreads, compared on the same set of contracts, with reproducible practical examples.",
+   "source_sha1": "dc5f0e6ceb7a24a7e7063f43ffcdb63df3978de1"
+  },
+  "Serennity007/ec-shipping-research-skill": {
+   "en": "Taotao's Europe-line EC shipping research: freight rate publication times, rerouting and demand changes, with input files, calculations and review steps.",
+   "source_sha1": "0f50560e03b86b628149d0da7937441c6f40aba9"
+  },
+  "Serennity007/gold-research-skill": {
+   "en": "Taotao's gold research: support recovery, gold-silver ratio, the dollar and real interest rates, with practice data, run commands and interpretation.",
+   "source_sha1": "1fb73977c13cfbe9c9c4e735a30daf55cf5c94e0"
+  },
+  "Serennity007/taotao-futures-research": {
+   "en": "Futures research by sector: public daily data retrieval, volume/open-interest and structure conditions, snapshot checks and reviews, with real data-retrieval logs and re-runnable examples.",
+   "source_sha1": "b5527d74595e9782a28dd78864b416531ce9d40e"
+  },
+  "Sherry-777-d/demand-radar": {
+   "en": "Demand radar: enter keywords, collect public discussions from Bilibili / Xiaohongshu / Douyin, have DeepSeek analyse sentiment, themes, pain points and opportunities, and generate an HTML market insight report",
+   "source_sha1": "fe0e6b63cfc9549cb1f386bf41a980ea865abe71"
+  },
+  "Song-wenpeng/PM-Stack": {
+   "en": "Desktop workspace for cross-border e-commerce operations and product research (Python/PyQt6): review analysis, sales data, product matrix, market planning and display dashboards",
+   "source_sha1": "8bc634a49514e29f7ec06cf159b3b454ab9d5dfd"
+  },
+  "TOB-L/yancec": {
+   "en": "An auditable market research agent · 16-node LangGraph · every number can be recomputed by a third party",
+   "source_sha1": "740397cd3a422baaa2a876ebabe1805dd2bbc940"
+  },
+  "WEIWEI0614/build-next": {
+   "en": "What to build next: project ideas and side-project niches ranked as demand (live GitHub Trending) minus supply (repo counts + registry vacancy). Zero deps, no LLM.",
+   "source_sha1": "10aa28083584c65765c2444f0317dabdfadd97a1"
+  },
+  "xiaogege6697/discover-acquisition-topics": {
+   "en": "AI Agent Skill to research & rank customer-acquisition content topics from demand signals, trigger scenarios, competition density and service fit",
+   "source_sha1": "b4a708e51551c637fe5d69b36276a330a41f0050"
+  },
+  "yangshu2087/51taoli": {
+   "en": "51taoli · a market-wide arbitrage information platform",
+   "source_sha1": "bbcc085d2bf3b0c5a57ed28d57228be1692ca320"
+  },
+  "yeohj0710/beauty-pharmacy-demand": {
+   "en": "A dashboard that collects product demand evidence from YouTube, Instagram, TikTok, Naver and Google and validates it against real pharmacy sales",
+   "source_sha1": "f8f98167d17842cc23d68bb2dbaf13a3d6c56efe"
+  },
+  "yibandaxia/demand-signal-miner": {
+   "en": "Demand miner: a Codex skill that discovers and validates product needs from real user behaviour evidence",
+   "source_sha1": "17c08fbfdabca3c0c7b323114b78fbedcd5fe404"
+  },
+  "yinyuejzzj/voice-diagnosis-market-research": {
+   "en": "Market and industry research on AI industrial acoustic diagnosis: uses public tender award notices as demand evidence to identify industries that actually pay, with competitor comparison and customer scoring",
+   "source_sha1": "305988c5c46c25153138d3a2410e444b85a491a1"
+  },
+  "YJY-XYYC/webCrawler": {
+   "en": "A full-featured word cloud generator supporting custom shapes, multiple parameter settings, live preview, text analysis and web crawling; a text visualisation tool for market research, data analysis and similar uses.",
+   "source_sha1": "3e98eee2ba898b2f6825f32baf12babacf8f35d3"
+  },
+  "yzsp-studio/novel-writing": {
+   "en": "Your first three chapters flop? Read them like a web-novel editor. · 📮 wow.vip@foxmail.com · 🎬 https://v.douyin.com/07EjIDGVErY/",
+   "source_sha1": "1ccff1f5a32130b26b0b0ea5623f530c4ddc9b38"
+  },
+  "yzsp-studio/product-analysis": {
+   "en": "Evidence-first product analysis: build, position, ship or kill with proof · 📮 wow.vip@foxmail.com · 🎬 https://v.douyin.com/07EjIDGVErY/",
+   "source_sha1": "662784c8db243ef271a2aca814176825fbbcc09c"
+  },
+  "zchstime/market-competitive-research-brief": {
+   "en": "Cross-verifies public information and outputs a competitor matrix, market insights and a management decision brief.",
+   "source_sha1": "2e40832a3c15ee71f6fe78972e3985367b2a3f28"
+  },
+  "zjgulai/VOC": {
+   "en": "End-to-end VOC insight for Momcozy feeding appliances: from consumer feedback and competitor signals to product and brand action recommendations",
+   "source_sha1": "4df871f19656e5cde5f470e0fc20c3e5b8c9d369"
+  }
+ }
+}

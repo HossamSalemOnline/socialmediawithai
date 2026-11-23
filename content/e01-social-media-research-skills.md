@@ -1,9 +1,9 @@
 # Open-source skills that teach your AI agent to research TikTok, Instagram, YouTube, Reddit, X and LinkedIn
 
-- **Author:** 牛叔叔 ([@ChantoziQ](https://x.com/ChantoziQ))
+- **Author:** [@ChantoziQ](https://x.com/ChantoziQ)
 - **Posted:** Sun 22 Nov 2026, 14:43 UTC
 - **Source:** https://x.com/ChantoziQ/status/2124513984984555683
-- **Language:** Chinese (original below, English translation after it)
+- **Language:** posted in Chinese; shown here in English translation
 - **Stats at capture (23 Nov 2026):** 98,411 views · 1,486 likes · 152 reposts · 5 quotes · 47 replies · 2,708 bookmarks
 - **Captured via:** Apify (`xquik/x-tweet-scraper`). The t.co link expanded to its real GitHub URL. The post has a link card but no attached video or image.
 
@@ -17,23 +17,9 @@
 | **Works with** | Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, VS Code |
 | **Requirement the post leaves out** | Every skill calls the ScrapeCreators API, which needs a paid API key (`SCRAPECREATORS_API_KEY`) from scrapecreators.com. The skills are free; the data is not. |
 
-## Original post (verbatim)
-
-> 卧槽！！！github的大神又开发了一套开源 Skill
->
-> 教你的 AI 助手去扒 TikTok、Instagram、YouTube、Reddit、X 和 LinkedIn 上真正跑起来的帖子。
->
-> 它能找出一个账号里超平均的爆款，读评论挖出大家在问什么、在骂什么，还能把竞争对手和他们的广告拆开看。
->
-> 装法就一行：
-> npx skills add ScrapeCreators/social-media-research-skills
->
-> Claude Code、Cursor、Codex、Gemini CLI 都能用。
-> https://github.com/ScrapeCreators/social-media-research-skills
+## The post (English translation)
 
 **Link card:** "GitHub - ScrapeCreators/social-media-research-skills: AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more."
-
-## English translation
 
 > Holy sh*t!!! A GitHub legend has built another set of open-source Skills.
 >

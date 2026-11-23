@@ -23,7 +23,7 @@
 | | Entry | Type | Author | Date |
 |---|---|---|---|---|
 |  | **[GitHub topic: market-research (1,751 repos)](content/topic-market-research.md)**<br><sub>Every public repo tagged market-research, with stars, language, last update and the authors' own descriptions. Top 25 first, then the full list. Refreshes itself every Monday.</sub> | GitHub topic | [@github](https://x.com/github) | 2026-11-23 |
-|  | **[Open-source skills that teach your AI agent to research TikTok, Instagram, YouTube, Reddit, X and LinkedIn](content/e01-social-media-research-skills.md)**<br><sub>13 agent skills from ScrapeCreators: outlier posts, comment mining, competitor and ad teardowns, trends, influencer prospecting. Chinese original plus English translation, linked to your fork.</sub> | Post | [@ChantoziQ](https://x.com/ChantoziQ) | 2026-11-22 |
+|  | **[Open-source skills that teach your AI agent to research TikTok, Instagram, YouTube, Reddit, X and LinkedIn](content/e01-social-media-research-skills.md)**<br><sub>13 agent skills from ScrapeCreators: outlier posts, comment mining, competitor and ad teardowns, trends, influencer prospecting. Translated into English, linked to your fork.</sub> | Post | [@ChantoziQ](https://x.com/ChantoziQ) | 2026-11-22 |
 
 <sub>The full list of 2 repos linked from entries is in [REPOS.md](REPOS.md).</sub>
 

@@ -7,7 +7,9 @@ date range is split in half until each slice fits), then writes:
   content/topic-<topic>.md      the readable catalogue
 """
 import datetime as dt
+import hashlib
 import json
+import re
 import pathlib
 import subprocess
 import sys
@@ -51,6 +53,30 @@ def collect(topic, lo=dt.date(2008, 1, 1), hi=None):
     return collect(topic, lo, mid) + collect(topic, mid + dt.timedelta(days=1), hi)
 
 
+NON_LATIN = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af\uf900-\ufaff]")
+PENDING = "(Description not in English; translation pending. See the repo.)"
+
+
+def englishify(repos):
+    """English-only catalogue: swap non-English descriptions for stored translations or a placeholder.
+    Returns the names still needing a translation."""
+    tpath = ROOT / "sources" / "translations.json"
+    tr = json.loads(tpath.read_text())["translations"] if tpath.exists() else {}
+    pending = []
+    for r in repos:
+        d = r.get("description") or ""
+        if not NON_LATIN.search(d):
+            continue
+        t = tr.get(r["fullName"])
+        if t and t.get("source_sha1") == hashlib.sha1(d.encode()).hexdigest():
+            r["description"] = t["en"]
+        else:
+            r["description"] = PENDING
+            pending.append(r["fullName"])
+        r["descriptionTranslated"] = True
+    return pending
+
+
 def md(topic, repos, note):
     today = dt.date.today().isoformat()
     langs = {}
@@ -61,7 +87,7 @@ def md(topic, repos, note):
              f"- **Source:** https://github.com/topics/{topic}",
              f"- **Repositories:** {len(repos):,} public repos (refreshed {today})",
              f"- **Most common languages:** {top_langs}",
-             f"- **Captured via:** GitHub search API, every repo tagged `{topic}`, refreshed weekly by `tools/refresh_topics.py`. Descriptions are the authors' own, unedited.",
+             f"- **Captured via:** GitHub search API, every repo tagged `{topic}`, refreshed weekly by `tools/refresh_topics.py`. Descriptions are the authors' own; {sum(1 for r in repos if r.get('descriptionTranslated'))} non-English ones are shown in English translation.",
              ""]
     if note:
         lines += [note, ""]
@@ -83,6 +109,9 @@ def main():
         name = t["topic"]
         found = {r["fullName"].lower(): r for r in collect(name)}
         repos = sorted(found.values(), key=lambda r: (-r["stargazersCount"], r["fullName"].lower()))
+        pending = englishify(repos)
+        if pending:
+            print(f"  {len(pending)} non-English descriptions awaiting translation: {', '.join(pending[:10])}")
         (ROOT / "sources" / "topics" / f"{name}.json").write_text(json.dumps(repos, indent=1))
         (ROOT / "content" / f"topic-{name}.md").write_text(md(name, repos, t.get("note", "")))
         print(f"{name}: {len(repos)} repos")
