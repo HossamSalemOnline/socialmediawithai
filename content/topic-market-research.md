@@ -11,7 +11,7 @@ Bookmarked alongside the social-media-research-skills post (entry E01). That rep
 
 | # | Repository | Stars | Language | Updated | Description |
 |---|---|---|---|---|---|
-| 1 | [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 7,316 | Python | 2026-11-23 | AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI. |
+| 1 | [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 7,320 | Python | 2026-11-23 | AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI. |
 | 2 | [ferdinandobons/startup-skill](https://github.com/ferdinandobons/startup-skill) | 1,315 |  | 2026-11-23 | AI agent skills for startup validation, competitive intelligence, and planning |
 | 3 | [kyky2347/ALTA](https://github.com/kyky2347/ALTA) | 1,078 | Python | 2026-11-20 | Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution. |
 | 4 | [mnemox-ai/idea-reality-mcp](https://github.com/mnemox-ai/idea-reality-mcp) | 831 | Python | 2026-11-22 | Pre-build reality check for AI coding agents. Scans GitHub, HN, npm, PyPI, Product Hunt. MCP server. 290+ stars. |
@@ -41,7 +41,7 @@ Bookmarked alongside the social-media-research-skills post (entry E01). That rep
 
 | # | Repository | Stars | Language | Updated | Description |
 |---|---|---|---|---|---|
-| 1 | [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 7,316 | Python | 2026-11-23 | AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI. |
+| 1 | [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 7,320 | Python | 2026-11-23 | AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI. |
 | 2 | [ferdinandobons/startup-skill](https://github.com/ferdinandobons/startup-skill) | 1,315 |  | 2026-11-23 | AI agent skills for startup validation, competitive intelligence, and planning |
 | 3 | [kyky2347/ALTA](https://github.com/kyky2347/ALTA) | 1,078 | Python | 2026-11-20 | Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution. |
 | 4 | [mnemox-ai/idea-reality-mcp](https://github.com/mnemox-ai/idea-reality-mcp) | 831 | Python | 2026-11-22 | Pre-build reality check for AI coding agents. Scans GitHub, HN, npm, PyPI, Product Hunt. MCP server. 290+ stars. |
