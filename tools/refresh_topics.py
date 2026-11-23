@@ -10,13 +10,24 @@ import datetime as dt
 import json
 import pathlib
 import subprocess
+import sys
+import time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FIELDS = "fullName,description,stargazersCount,forksCount,language,updatedAt,createdAt,url,isArchived"
 
 
-def gh(args):
-    return subprocess.run(["gh", *args], capture_output=True, text=True, check=True).stdout
+def gh(args, tries=6):
+    """Run gh, waiting out GitHub's search rate limit (about 30 searches a minute) when it hits."""
+    for attempt in range(1, tries + 1):
+        r = subprocess.run(["gh", *args], capture_output=True, text=True)
+        if r.returncode == 0:
+            time.sleep(2)  # stay well under the per-minute search limit
+            return r.stdout
+        wait = 20 * attempt
+        print(f"  gh failed (attempt {attempt}): {r.stderr.strip()[:160]} — retrying in {wait}s", file=sys.stderr)
+        time.sleep(wait)
+    raise SystemExit(f"gh kept failing: {' '.join(args)}")
 
 
 def count(topic, lo, hi):
